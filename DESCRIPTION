@@ -1,0 +1,17 @@
+Package: NAtMort
+Type: Package
+Title: Natural Mortality estimates for fisheries
+Version: 0.1.0
+Author: Amina TIFOURA
+Maintainer: Amina TIFOURA <at109@gcloud.ua.es>
+Description: This package provides tools for estimating natural mortality in fisheries using several models. It includes functions for growth modeling and mortality estimation.
+License: GPL-3
+Depends: R (>= 3.5.0)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    reshape2,
+    FSA
+RoxygenNote: 7.3.2
+BugReports: https://github.com/Amina-UA/NatMort/issues

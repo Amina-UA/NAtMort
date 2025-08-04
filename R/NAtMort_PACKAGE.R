@@ -1,0 +1,24 @@
+#' NAtMort: Natural Mortality Estimation Tools
+#'
+#' A set of tools for estimating natural mortality (M) in fish stocks using biological models and empirical relationships.
+#' This help page appears when running `help(package = "NAtMort")`.
+#'
+#' @section Functions:
+#' - \code{\link{VB_params}}: Create von Bertalanffy growth parameters.
+#' - \code{\link{Gislason}}: Estimate mortality using Gislason et al. (2008).
+#' - \code{\link{Charnov}}: Estimate mortality using Charnov et al. (2012).
+#' - \code{\link{ProdBiom}}: Estimate mortality using Abella et al. (1998).
+#' - \code{\link{Lorenzen}}: Estimate mortality using Lorenzen (1996).
+#' - \code{\link{scalar_M}}: Estimate scalar natural mortality using FSA.
+#' - \code{\link{M_scalarPlot}}: Plot scalar M estimates.
+#' - \code{\link{Plot_M}}: Plot all M estimates.
+#'
+#' @author
+#' Amina TIFOURA <at109@gcloud.ua.es>
+#'
+#' @keywords internal
+#' @name NAtMort_PACKAGE
+#' @aliases NAtMort PACKAGE
+#' @title NAtMort_PACKAGE
+#' @description This package provides tools for estimating natural mortality in fisheries using several models. It includes functions for growth modeling and mortality estimation.
+"_PACKAGE"
