@@ -17,4 +17,5 @@ Instructions for installing the package:
 ```r
 # Install from GitHub
 devtools::install_github("Amina-UA/NatMort")
+library(NAtMort)
 ```
