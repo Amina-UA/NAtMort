@@ -5,12 +5,10 @@
 [![codecov](https://codecov.io/gh/Amina-UA/NAtMort/branch/main/graph/badge.svg)](https://app.codecov.io/gh/Amina-UA/NAtMort)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+[![ORCID](https://img.shields.io/badge/ORCID-0000-0001-9481-3624-brightgreen)](https://orcid.org/0000-0001-9481-3624)
 <!-- Uncomment if/when on CRAN
 [![CRAN status](https://www.r-pkg.org/badges/version/NAtMort)](https://cran.r-project.org/package=NAtMort)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/NAtMort)](https://cran.r-project.org/package=NAtMort)
--->
-<!-- Optional: archive DOI (replace with your real Zenodo DOI)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.0000000.svg)](https://doi.org/10.5281/zenodo.0000000)
 -->
 
 Natural mortality (M) is a critical concept in understanding the dynamics of biological populations. It represents the rate at which individuals in a population die due to natural causes, excluding human-related activities such as fishing or harvesting. This parameter is essential in fisheries science and ecological research, as it helps scientists model population trends, assess ecosystem health, and make informed management decisions. By providing tools and models to estimate this parameter, researchers can gain valuable insights into species' life histories and survival rates, ultimately supporting conservation and resource management efforts.
@@ -64,13 +62,13 @@ plot_M(m_out, by = "age", show_ci = TRUE, title = "Natural Mortality by Age")
 
 Citation
 
-If you use NAtMort, please cite both the package and any original methods you apply.
+If you use NAtMort:
 
 Cite the package
 ```r
 citation("NAtMort")
 ```
-BibTeX (example) — Amina TIFOURA/2025/V0.1.0:
+BibTeX — Amina TIFOURA/2025/V0.1.0:
 
 ```r
 @misc{NAtMort,
